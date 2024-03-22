@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu Bar</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<header>
+		<span class="sidebar-toggler show-sideBar" id="menu-toggler">
+			<i class="fa-solid fa-grip-lines" id="show-menu"></i>
+			<i class="fa-solid fa-xmark" id="hide-menu"></i>
+		</span>
+		<div class="header logo">
+			<a href="#" target="_self">
+				<i class="fa-brands fa-square-github"></i> 
+			</a>
+		</div>
+		<nav class="header main-menu-bar">
+			<ul>
+				<li>
+					<a href="#">
+						<span class="icon">
+							<i class="fa-solid fa-house-user"></i>
+						</span>
+						<span class="menu home">Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon">
+							<i class="fa-solid fa-circle-dot"></i>
+						</span> 
+						<span class="menu issues">Issues</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon">
+							<i class="fa-solid fa-code-pull-request"></i>
+						</span> 
+						<span class="menu pull-request"> Pull requests</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon">
+							<i class="fa-solid fa-table"></i>
+						</span> 
+						<span class="menu project">Project</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon">
+							<i class="fa-solid fa-message"></i>
+						</span> 
+						<span class="menu discussion">Discussion</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon">
+							<i class="fa-solid fa-server"></i>
+						</span> 
+						<span class="menu code-space">CodeSpace</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+</body>
+<script src="script.js"></script>
+</html>
